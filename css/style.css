@@ -1,0 +1,167 @@
+body {
+  font-family: Arial;
+  max-width: 50%;
+  margin: 50px auto;
+
+
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+input[type=text], input[type=email], input[type=password], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  background-color: red;
+  padding: 12px 20px; 
+   border: none;
+  border-radius: 4px;
+ margin-bottom: 20px;
+}
+
+.success {
+  background-color: green;
+  padding: 12px 20px; 
+   border: none;
+  border-radius: 4px;
+ margin-bottom: 20px;
+}
+
+nav {
+  width: 200px;
+  margin-top: 0px;
+  background-color: #eee;
+  padding: 30px;
+}
+
+nav a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav a:hover {
+  background-color: #ccc;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.ment{
+  max-width: 100%;
+  margin: 0px;
+}
+.set{
+  margin-left: 300px;
+  margin-top: -200px;
+}
+.dash{
+  background-color: grey;
+  width: 20%;
+  padding: 12px 4px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+
+}
+
+
+.logo-set{
+  background-color: red;
+  padding: 20px;
+}
+
+.titles{
+  text-align: right;
+  margin-right: 40px;
+  margin-top: -40px;
+}
+.logo{
+  margin-left: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
